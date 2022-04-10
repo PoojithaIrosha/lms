@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Fredoka";
+    src: url("../fonts/Fredoka-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Super";
+    src: url("../fonts/super.ttf");
+}
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+* {
+    font-family: 'Quicksand', 'Fredoka';
+    font-size: 15px;
+}
+
+:root {
+    --blue-light: #CAF0F8;
+    --blue-primary: #00B4D8;
+    --dark-blue: #03045E;
+    --yellow: #FFC300;
+    --red: #FF1818;
+    --white: #fff;
+    --gray: #868686;
+}
+
+body {
+    background-color: var(--white);
+}
+
+.img {
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.hr-break-1 {
+    border-style: solid;
+    border-color: rgb(218, 218, 218);
+    border-width: 3px;
+    margin-top: 10px;
+}
+
+.header1 {
+    font-family: "Super";
+}
+
+.anchor-tag {
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--gray);
+}
+
+.anchor-tag:hover {
+    text-decoration: underline;
+    color: var(--yellow);
+}
+
+.lbl1 {
+    cursor: pointer;
+    user-select: none;
+}
+
+.select-none {
+    user-select: none;
+}
+
+.admin-btn {
+    height: 70px;
+    width: 200px;
+    background-image: url("../img/admin.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+
+/* Header */
+
+.user-name:hover {
+    /* text-decoration underline; */
+    padding-bottom: 2px;
+    border-bottom: 2px solid;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+/* Header */
